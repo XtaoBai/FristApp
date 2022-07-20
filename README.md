@@ -3,6 +3,4 @@
 
 Android app.
 
-Do some hotfix.
-
-Do some testing, bug fixing, and etc.
+This branch store some exercise code in the learning.
