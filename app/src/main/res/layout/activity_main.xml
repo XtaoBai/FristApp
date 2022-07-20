@@ -27,14 +27,20 @@
         android:text="计算器"/>
 
     <Button
-        android:id="@+id/getTime"
-        android:layout_width="150dp"
+        android:id="@+id/getTime_priv"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:textSize="20sp"
-        android:text="获取时间"
-        android:onClick="doClick"
+        android:text="单独点击事件"
         />
 
+    <Button
+        android:id="@+id/getTime_pub"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="公共点击事件"
+        />
     <TextView
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
