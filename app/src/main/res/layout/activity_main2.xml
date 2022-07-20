@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="9"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:background="#FFCCCC"
+        android:paddingLeft="16dp"
+        android:shadowColor="#fff"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="3.0"
+        android:text="01231"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="回退" />
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="清空" />
+
+    <Button android:text="+" />
+
+    <Button android:text="1" />
+
+    <Button android:text="2" />
+
+    <Button android:text="3" />
+
+    <Button android:text="-" />
+
+    <Button android:text="4" />
+
+    <Button android:text="5" />
+
+    <Button android:text="6" />
+
+    <Button android:text="*" />
+
+    <Button android:text="7" />
+
+    <Button android:text="8" />
+
+    <Button android:text="9" />
+
+    <Button android:text="/" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="." />
+
+    <Button android:text="0" />
+
+    <Button android:text="=" />
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_margin="5dp"
+        android:background="@drawable/rectborder"
+        android:gravity="center"
+        android:text="矩形框"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_margin="5dp"
+        android:background="@drawable/radiuborder"
+        android:gravity="center"
+        android:text="圆角框"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_height="40dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:background="@drawable/btn_bg1"
+        android:text="按钮" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_height="40dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="按钮不可用" />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="请选择性别"-->
+    <!--        android:textSize="23dp"-->
+    <!--        />-->
+
+    <!--    <RadioGroup-->
+    <!--        android:id="@+id/radioGroup"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btnMan"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:paddingStart="5dp"-->
+    <!--            android:text="男"-->
+    <!--            android:checked="true"/>-->
+
+    <!--        <RadioButton-->
+    <!--            android:id="@+id/btnWoman"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:paddingStart="5dp"-->
+    <!--            android:text="女"/>-->
+    <!--    </RadioGroup>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnpost"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="提交"/>-->
+
+    <ToggleButton
+        android:id="@+id/tbtn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="关闭声音"
+        android:textOn="打开声音" />
+
+    <Switch
+        android:id="@+id/swh_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff=""
+        android:textOn=""
+        android:thumb="@drawable/thumb_selctor"
+        android:track="@drawable/track_selctor" />
+
+</GridLayout>
